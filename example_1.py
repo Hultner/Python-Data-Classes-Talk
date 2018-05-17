@@ -2,7 +2,7 @@ import collections
 from datetime import date
 from typing import List, Optional
 from dataclasses import dataclass, field, asdict, astuple
-
+import jsondate as json
 
 @dataclass
 class Host:
@@ -89,6 +89,8 @@ class EventConventionalVerbose:
             )
         return NotImplemented
 
+def json_dataclass(data):
+    return json.dumps(asdict(data))
 
 host_collection = [
     {"name": "Alexander Hultnér", "nickname": "Hultnér"}, {"name": "Emily Bache"}
