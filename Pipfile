@@ -9,6 +9,7 @@ ptpython = "*"
 black = "*"
 attrs = "*"
 bpython = "*"
+jsondate = "*"
 
 [dev-packages]
 
