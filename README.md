@@ -27,7 +27,7 @@ The misuse of NamedTuples (wouldn't recommend)
 ```python
 @dataclass
 class A:
-	# Required, need to be first; just like kwargs
+	# Required, need to be first; just like function signatures
 	a: str
 	
 	# Optional value, “nullable”
