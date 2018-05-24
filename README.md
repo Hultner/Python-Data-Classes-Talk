@@ -11,7 +11,7 @@
 **By Alexander Hultnér** at GothPy 17th of May 2018.
 
 
-## Dataclasses FAQ
+## ♜ Dataclasses FAQ
 **What's the requirements for using dataclasses?**   
 Python 3.6+ (ordered dicts, type annotations) via `pip install dataclasses`   
 
@@ -22,7 +22,7 @@ Dataclasses are native in 3.7
 [Attrs](http://www.attrs.org/en/stable/) was a large insperation for dataclasses  
 The misuse of NamedTuples (wouldn't recommend)   
 
-## Quick Reference
+## ♜ Quick Reference
 ```python
 @dataclass
 class A:
@@ -37,7 +37,7 @@ A(a='Required value', b=None, c='default', d=datetime.datetime(2018, 5, 24, 17, 
 
 ```
 
-## Links
+## ♜ Links
 - [GitHub – PEP draft & backport](https://github.com/ericvsmith/dataclasses)
 - [Python.org PEP 557](https://www.python.org/dev/peps/pep-0557/)
 - [A breif tour of Python 3.7 dataclasses](https://hackernoon.com/a-brief-tour-of-python-3-7-data-classes-22ee5e046517)
