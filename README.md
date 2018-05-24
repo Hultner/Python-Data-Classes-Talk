@@ -8,7 +8,9 @@
 </p>
 
 # ♜ Python Dataclasses 
-**By Alexander Hultnér** at GothPy 17th of May 2018.
+**By Alexander Hultnér** at GothPy 17th of May 2018.  
+Talk about Dataclasses and how you can use them today.
+
 
 
 ## ♜ Dataclasses FAQ
@@ -26,14 +28,24 @@ The misuse of NamedTuples (wouldn't recommend)
 ```python
 @dataclass
 class A:
-	a: str  # required, need to be first
-	b: Optional[str] = None  # Optional value, “nullable”
-	c: str = "default"  # Optional with default value
-	d: str = datetime.now()  # Run at startup
-	e: str = field(default_factory=lambda: f"Created: {datetime.now()}")  # Run at init
+	# Required, need to be first; just like kwargs
+	a: str
+	
+	# Optional value, “nullable”
+	b: Optional[str] = None
+	
+	# Optional with default value
+	c: str = "default"
+	
+	# Run at startup
+	d: str = str(datetime.now())
+	
+	# Run when creating class instance
+	e: str = field(default_factory=lambda: f"Created: {datetime.now()}") 
 	
 >>> A("Required value")
-A(a='Required value', b=None, c='default', d=datetime.datetime(2018, 5, 24, 17, 50, 46, 555014), e='Created: 2018-05-24 17:51:07.782374')
+A(a='Required value', b=None, c='default', d='2018-05-24 20:39:19.930841', e='Created: 2018-05-24 20:40:05.762934')
+
 
 ```
 
