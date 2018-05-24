@@ -36,10 +36,10 @@ class A:
 	# Optional with default value
 	c: str = "default"
 	
-	# Run at startup
+	# Executed at startup
 	d: str = str(datetime.now())
 	
-	# Run when creating class instance
+	# Executed when creating class instance
 	e: str = field(default_factory=lambda: f"Created: {datetime.now()}") 
 	
 >>> A("Required value")
