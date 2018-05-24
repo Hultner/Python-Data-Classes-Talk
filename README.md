@@ -4,6 +4,7 @@
 </p>
 <p align="center">
 	<a href="http://cetrez.com/" rel="nofollow" class="rich-diff-level-one">Cetrez</a> | <a href="http://blog.cetrez.com/" rel="nofollow" class="rich-diff-level-one">Blog</a> | <a href="http://slides.com/hultner/python-dataclasses-gothpy-alexander-hultner/fullscreen" rel="nofollow" class="rich-diff-level-one">Presentation slides</a> | <a href="https://www.facebook.com/groups/nordiskpython/" rel="nofollow" class="rich-diff-level-one">Nordisk Python Community</a> | <a href="https://www.meetup.com/GothPy/events/249499024/" rel="nofollow" class="rich-diff-level-one">Meetup event</a> | <a href="https://twitter.com/ahultner" rel="nofollow" class="rich-diff-level-one">@ahultner</a>
+	<hr>
 </p>
 
 # ♜ Python Dataclasses 
