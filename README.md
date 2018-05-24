@@ -20,7 +20,7 @@ Python 3.6+ (ordered dicts, type annotations) via `pip install dataclasses`   
 Dataclasses are native in 3.7  
 
 **What similar patterns are used in older Python versions?**  
-[Attrs](http://www.attrs.org/en/stable/) was a large insperation for data classes  
+[Attrs](http://www.attrs.org/en/stable/) was a large inspiration for data classes  
 The misuse of NamedTuples (wouldn't recommend)   
 
 ## ♜ Quick Reference
