@@ -11,27 +11,35 @@
 **By Alexander Hultnér** at GothPy 17th of May 2018.
 
 
-## Dataclasses 
-Python 3.6+ for ordered dicts and type annotation support  
-Native in 3.7  
-Misuse of NamedTuples  
-Attrs – why in standard language?  
+## Dataclasses FAQ
+**What's the requirements for using dataclasses?**   
+Python 3.6+ (ordered dicts, type annotations) via `pip install dataclasses`   
 
+**When can I use dataclasses without installing the package?**  
+Dataclasses are native in 3.7  
 
-Astuple asdict  
+**What similar patterns are used in older Python versions?**  
+[Attrs](http://www.attrs.org/en/stable/) was a large insperation for dataclasses  
+The misuse of NamedTuples (wouldn't recommend)   
 
-Default,  
-factories,   
+## Quick Reference
 ```python
 @dataclass
 class A:
-	d: Optional[str] = None  # Optional value, “nullable”
-	d: str  # required 
-	d: str = "default"  # Optional with default value
-	d: str = lambda: f"Created: {now}"  # factory
+	a: str  # required, need to be first
+	b: Optional[str] = None  # Optional value, “nullable”
+	c: str = "default"  # Optional with default value
+	d: str = datetime.now()  # Run at startup
+	e: str = field(default_factory=lambda: f"Created: {datetime.now()}")  # Run at init
+	
+>>> A("Required value")
+A(a='Required value', b=None, c='default', d=datetime.datetime(2018, 5, 24, 17, 50, 46, 555014), e='Created: 2018-05-24 17:51:07.782374')
+
 ```
 
 ## Links
-https://github.com/ericvsmith/dataclasses  
-https://www.python.org/dev/peps/pep-0557/  
-https://hackernoon.com/a-brief-tour-of-python-3-7-data-classes-22ee5e046517  
+- [GitHub – PEP draft & backport](https://github.com/ericvsmith/dataclasses)
+- [Python.org PEP 557](https://www.python.org/dev/peps/pep-0557/)
+- [A breif tour of Python 3.7 dataclasses](https://hackernoon.com/a-brief-tour-of-python-3-7-data-classes-22ee5e046517)
+- [Raymond Hettinger - Dataclasses: The code generator to end all code generators - PyCon 2018](https://www.youtube.com/watch?v=T-TwcmT6Rcw)
+- [The Ultimate Guide to Data Classes in Python 3.7](https://realpython.com/python-data-classes/)
