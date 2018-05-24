@@ -1,5 +1,5 @@
 import collections
-from datetime import date
+from datetime import date, datetime
 from typing import List, Optional
 from dataclasses import dataclass, field, asdict, astuple
 import jsondate as json
@@ -7,7 +7,7 @@ import jsondate as json
 @dataclass
 class Host:
     name: str  # Required field
-    nickname: Optional[str] = None  # Not required
+    nickname: Optional[str] = None  # Optional field not required
 
 
 @dataclass
@@ -17,7 +17,7 @@ class Event:
     # Mutable objects requires a factory, otherwise they'll share state just
     # like conventional Python classes. A suggestion to change this was rejected.
     hosts: List[Host] = field(default_factory=list)
-    day: date = date.today()
+    day: date = field(default_factory=date.today)
 
     # Executes after init, good for *validation* and *post processing*
     def __post_init__(self):
@@ -89,8 +89,6 @@ class EventConventionalVerbose:
             )
         return NotImplemented
 
-def json_dataclass(data):
-    return json.dumps(asdict(data))
 
 host_collection = [
     {"name": "Alexander Hultnér", "nickname": "Hultnér"}, {"name": "Emily Bache"}
