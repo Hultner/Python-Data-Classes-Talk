@@ -7,21 +7,21 @@
 	<hr>
 </p>
 
-# ♜ Python Dataclasses 
+# ♜ Python Data Classes 
 **By Alexander Hultnér** at GothPy 17th of May 2018.  
-Talk about Dataclasses and how you can use them today.
+Talk about *data classes* and how you can use them today.
 
 
 
 ## ♜ Dataclasses FAQ
-**What's the requirements for using dataclasses?**   
+**What's the requirements for using data classes?**   
 Python 3.6+ (ordered dicts, type annotations) via `pip install dataclasses`   
 
-**When can I use dataclasses without installing the package?**  
+**When can I use data classes without installing the package?**  
 Dataclasses are native in 3.7  
 
 **What similar patterns are used in older Python versions?**  
-[Attrs](http://www.attrs.org/en/stable/) was a large insperation for dataclasses  
+[Attrs](http://www.attrs.org/en/stable/) was a large insperation for data classes  
 The misuse of NamedTuples (wouldn't recommend)   
 
 ## ♜ Quick Reference
