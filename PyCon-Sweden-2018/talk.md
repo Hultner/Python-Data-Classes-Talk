@@ -29,7 +29,19 @@ Intermediate, intended to be interesting for all audiences.
    - Named Tuple
    - Attrs
    - ORM-libraries
- - ...
+ - Usage
+   - `pip install dataclasses` in Python 3.6
+   - `from dataclasses import dataclasses`
+   - `@dataclass` decorator
+   - Small example
+ - Example
+   - Bigger example
+   - `__post_init__()`
+   - `field()`, `default_factory`
+ - Utility functions
+   - `asdict`
+   - `astuple`
+   - etc...
  - ...
  - Demo? (prepare video in case of emergency)
    - Maybe use JupyterLab/notebook this time
