@@ -4,14 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-dataclasses = "*"
+# Uncomment below for Python 3.6
+# dataclasses = "*"
 ptpython = "*"
 black = "*"
 attrs = "*"
 bpython = "*"
 jsondate = "*"
+jupyterlab = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
