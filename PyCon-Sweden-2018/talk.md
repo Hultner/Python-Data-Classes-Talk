@@ -25,6 +25,10 @@ Intermediate, intended to be interesting for all audiences.
    - Why
  - Why
  - Overview
+ - History (2 minutes, 4 total)
+   - Named Tuple
+   - Attrs
+   - ORM-libraries
  - ...
  - ...
  - Demo? (prepare video in case of emergency)
