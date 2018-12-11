@@ -24,8 +24,9 @@ Intermediate, intended to be interesting for all audiences.
    - Outline of the talk
    - Why
  - Why
- - Overview
- - History (2 minutes, 4 total)
+ - Data Classes in two minutes (2 minutes, 4 total)
+   - Base on slide from previous talk
+ - History (2 minutes, 6 total)
    - Named Tuple
    - Attrs
    - ORM-libraries
@@ -43,10 +44,12 @@ Intermediate, intended to be interesting for all audiences.
    - `astuple`
    - etc...
  - ...
- - Demo? (prepare video in case of emergency)
-   - Maybe use JupyterLab/notebook this time
+ - Demo? 
+   - Use JupyterLab/notebook
  - Final thoughs
  - Questions
+   - Links
+   - Bio
 
 ## Additional notes
 I had a similar but slightly shorter talk at GothPy (the Gothenburg Python user
