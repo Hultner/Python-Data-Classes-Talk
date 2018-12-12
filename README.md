@@ -8,7 +8,7 @@
 </p>
 
 # ♜ Python Data Classes 
-*Data Classes, in Python 3.6 and beyond…*
+*Data Classes, in Python 3.6 and beyond.*
 
 ## PyCon Sweden, December 12, 2018 (Stockholm)
 **Data Classes, in Python 3.6 and beyond**  
@@ -39,7 +39,9 @@ Dataclasses are native in 3.7
 
 **What similar patterns are used in older Python versions?**  
 [Attrs](http://www.attrs.org/en/stable/) was a large inspiration for data classes  
-The misuse of NamedTuples (wouldn't recommend)   
+NamedTuples, based on tuples, regretted design choices have been improved in dataclasses. 
+Got a Dataclasses-style syntax recently.  
+ORMs, SQLAlchemy, Djangon ORM, PeeWee, etc.
 
 ## ♜ Quick Reference
 ```python
@@ -72,3 +74,4 @@ A(a='Required value', b=None, c='default', d='2018-05-24 20:39:19.930841', e='Cr
 - [A breif tour of Python 3.7 dataclasses](https://hackernoon.com/a-brief-tour-of-python-3-7-data-classes-22ee5e046517)
 - [Raymond Hettinger - Dataclasses: The code generator to end all code generators - PyCon 2018](https://www.youtube.com/watch?v=T-TwcmT6Rcw)
 - [The Ultimate Guide to Data Classes in Python 3.7](https://realpython.com/python-data-classes/)
+- [Dataclasses, Python Docs](https://docs.python.org/3/library/dataclasses.html)
