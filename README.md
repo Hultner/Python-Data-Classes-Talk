@@ -3,14 +3,32 @@
   <a href="http://cetrez.com/"><img src="./res/cetrez.svg" alt="Hack the Castle" align="center" width="400"></a>
 </p>
 <p align="center">
-	<a href="http://cetrez.com/" rel="nofollow" class="rich-diff-level-one">Cetrez</a> | <a href="http://blog.cetrez.com/" rel="nofollow" class="rich-diff-level-one">Blog</a> | <a href="http://slides.com/hultner/python-dataclasses-gothpy-alexander-hultner/fullscreen" rel="nofollow" class="rich-diff-level-one">Presentation slides</a> | <a href="https://www.facebook.com/groups/nordiskpython/" rel="nofollow" class="rich-diff-level-one">Nordisk Python Community</a> | <a href="https://www.meetup.com/GothPy/events/249499024/" rel="nofollow" class="rich-diff-level-one">Meetup event</a> | <a href="https://twitter.com/ahultner" rel="nofollow" class="rich-diff-level-one">@ahultner</a>
+	<a href="http://cetrez.com/" rel="nofollow" class="rich-diff-level-one">Cetrez</a> | <a href="http://blog.cetrez.com/" rel="nofollow" class="rich-diff-level-one">Blog</a> | <a href="https://slides.com/hultner/pycon-se-18/fullscreen" rel="nofollow" class="rich-diff-level-one">Slides, PyCon SE 18</a> | <a href="https://www.facebook.com/groups/nordiskpython/" rel="nofollow" class="rich-diff-level-one">Nordisk Python Community</a> | <a href="https://twitter.com/ahultner" rel="nofollow" class="rich-diff-level-one">@ahultner</a>
 	<hr>
 </p>
 
 # ♜ Python Data Classes 
+*Data Classes, in Python 3.6 and beyond…*
+
+## PyCon Sweden, December 12, 2018 (Stockholm)
+**Data Classes, in Python 3.6 and beyond**  
+Python 3.7 is here and the @dataclass-decorator is a major new feature 
+simplifying class-creation. In this talk, we will learn to use the power of 
+data classes to make our codebases cleaner and leaner in a pythonic way.
+
+We will also learn how to use the backport in Python 3.6 codebases before 
+upgrading.
+
+- [Slides](https://slides.com/hultner/pycon-se-18/fullscreen)
+- [Jupyter Lab Notebook](PyCon-Sweden-2018/demo.ipynb)
+
+## GothPy, May 17, 2018
 **By Alexander Hultnér** at GothPy 17th of May 2018.  
 A talk about *data classes* and how you can use them today.
 The code we experimented with in the demo is available in [demo.py](./demo.py).
+
+- [Slides](http://slides.com/hultner/python-dataclasses-gothpy-alexander-hultner/fullscreen)
+- [Meetup Event](https://www.meetup.com/GothPy/events/249499024/)
 
 ## ♜ Dataclasses FAQ
 **What's the requirements for using data classes?**   
