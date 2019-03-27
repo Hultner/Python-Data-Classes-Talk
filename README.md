@@ -11,7 +11,7 @@
 *Data Classes, in Python 3.6 and beyond.*
 
 ## PyCon Sweden, December 12, 2018 (Stockholm)
-**Data Classes, in Python 3.6 and beyond**  
+[**Data Classes, in Python 3.6 and beyond** (youtube video)](http://youtube.com/watch?v=nwjWOaxWMes)  
 Python 3.7 is here and the @dataclass-decorator is a major new feature 
 simplifying class-creation. In this talk, we will learn to use the power of 
 data classes to make our codebases cleaner and leaner in a pythonic way.
@@ -19,6 +19,7 @@ data classes to make our codebases cleaner and leaner in a pythonic way.
 We will also learn how to use the backport in Python 3.6 codebases before 
 upgrading.
 
+- [Video Recording](http://youtube.com/watch?v=nwjWOaxWMes)
 - [Slides](https://slides.com/hultner/pycon-se-18/fullscreen)
 - [Jupyter Lab Notebook](PyCon-Sweden-2018/demo.ipynb)
 
