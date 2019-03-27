@@ -1,9 +1,9 @@
 
 <p align="center">
-  <a href="http://cetrez.com/"><img src="./res/cetrez.svg" alt="Hack the Castle" align="center" width="400"></a>
+  <a href="https://hultner.se/"><img src="https://hultner.se/img/logo/logo_black-01.svg" alt="Hultnér Technologies" align="center" width="200"></a>
 </p>
 <p align="center">
-	<a href="http://cetrez.com/" rel="nofollow" class="rich-diff-level-one">Cetrez</a> | <a href="http://blog.cetrez.com/" rel="nofollow" class="rich-diff-level-one">Blog</a> | <a href="https://slides.com/hultner/pycon-se-18/fullscreen" rel="nofollow" class="rich-diff-level-one">Slides, PyCon SE 18</a> | <a href="https://www.facebook.com/groups/nordiskpython/" rel="nofollow" class="rich-diff-level-one">Nordisk Python Community</a> | <a href="https://twitter.com/ahultner" rel="nofollow" class="rich-diff-level-one">@ahultner</a>
+	<a href="https://hultner.se/" rel="nofollow" class="rich-diff-level-one">Hultnér Technologies AB</a> | <a href="http://alexander.hultner.se" rel="nofollow" class="rich-diff-level-one">Blog</a> | <a href="https://slides.com/hultner/pycon-se-18/fullscreen" rel="nofollow" class="rich-diff-level-one">Slides, PyCon SE 18</a> | <a href="https://www.facebook.com/groups/nordiskpython/" rel="nofollow" class="rich-diff-level-one">Nordisk Python Community</a> | <a href="https://twitter.com/ahultner" rel="nofollow" class="rich-diff-level-one">@ahultner</a>
 	<hr>
 </p>
 
